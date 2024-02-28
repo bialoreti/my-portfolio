@@ -1,0 +1,80 @@
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0% auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 20px;
+  
+}
+
+h2 {
+  font-size: 30px;
+}
+
+:root {
+  --primary-color: #113816;
+  --secondary-color: white;
+  --border: 30px;
+  --button-size: 20px 15px;
+  --box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  --text-decoration-style: bold;
+  
+}
+
+.container {
+  display: flex;
+}
+
+.left-side {
+  align-self: center;
+  flex: 1 1 0%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-side {
+  text-align: right;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.about-me {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: var(--border);
+  margin: 50px;
+  padding: var(--button-size);
+  box-shadow: var(--box-shadow);
+  border-color: transparent;
+  font-weight: var(--text-decoration-style);
+  
+}
+
+.contact-me {
+ background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: var(--border);
+  margin: 50px;
+  padding: var(--button-size);
+  box-shadow: var(--box-shadow);
+  opacity: 0.6;
+  border-color: transparent;
+  font-weight: var(--text-decoration-style);
+  
+}
+
+footer {
+    padding-top: 150px;
+   color: var(--primary-color);
+   opacity: 0.6;
+}
