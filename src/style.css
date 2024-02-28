@@ -8,22 +8,22 @@ body {
 h1 {
   text-align: center;
   font-size: 70px;
-  margin: 20px;
-  
+  margin: 15px;
 }
 
 h2 {
   font-size: 30px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  text-align: center;
 }
 
 :root {
   --primary-color: #113816;
   --secondary-color: white;
   --border: 30px;
-  --button-size: 20px 15px;
   --box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
   --text-decoration-style: bold;
-  
 }
 
 .container {
@@ -53,28 +53,93 @@ h2 {
   color: var(--secondary-color);
   border-radius: var(--border);
   margin: 50px;
-  padding: var(--button-size);
+  padding: 20px 20px;
   box-shadow: var(--box-shadow);
   border-color: transparent;
   font-weight: var(--text-decoration-style);
-  
+  transition: all 200ms ease;
 }
 
 .contact-me {
- background-color: var(--primary-color);
+  background-color: var(--primary-color);
   color: var(--secondary-color);
   border-radius: var(--border);
   margin: 50px;
-  padding: var(--button-size);
+  padding: 20px 15px;
   box-shadow: var(--box-shadow);
   opacity: 0.6;
   border-color: transparent;
   font-weight: var(--text-decoration-style);
-  
+  transition: all 200ms ease;
+}
+
+button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 footer {
-    padding-top: 150px;
-   color: var(--primary-color);
-   opacity: 0.6;
+  padding-top: 150px;
+  color: var(--primary-color);
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: var(--text-decoration-style);
+}
+
+.underline {
+  color: var(--primary-color);
+  opacity: 0.6;
+}
+
+.back-to {
+  display: block;
+  text-align: center;
+  font-weight: var(--text-decoration-style);
+  margin: 30px;
+  color: var(--primary-color);
+}
+
+.second-body {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+}
+
+.title-box {
+  font-size: 24px;
+}
+
+.col-one {
+  display: block;
+  color: var(--secondary-color);
+  background-color: #738875;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  border-radius: var(--border);
+}
+
+.col-two {
+  display: block;
+  color: var(--secondary-color);
+  background-color: #738875;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  border-radius: var(--border);
+}
+
+h3 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.email {
+  color: var(--primary-color);
+  opacity: 0.6;
+  font-size: 20px;
 }
