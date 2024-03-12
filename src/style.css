@@ -151,7 +151,7 @@ p {
   font-size: 20px;
 }
 
-button {
+#secondary-button{
   color: var(--secondary-color);
   margin: 50px;
   padding: 10px 15px;
