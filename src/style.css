@@ -161,4 +161,5 @@ button {
   transition: all 200ms ease;
   text-align: center;
   background-color: var(--primary-color);
+  border-radius: var(--border);
 }
