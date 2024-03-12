@@ -98,6 +98,7 @@ button:hover {
   display: flex;
   flex-direction: row-reverse;
   margin: 20px;
+  margin-right: 50px;
 }
 
 #button-section {
@@ -118,10 +119,10 @@ p {
 }
 
 #second-subtitle {
- font-size: 50px;
+  font-size: 50px;
   color: var(--primary-color);
   opacity: 0.6;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .about-container {
@@ -138,9 +139,10 @@ p {
   max-width: 500px;
 }
 
-h3 {
+#h3 {
   font-size: 40px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .email {
