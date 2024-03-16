@@ -162,3 +162,7 @@ margin: 10px;
   background-color: var(--primary-color);
   border-radius: var(--border);
 }
+
+#secondary-button:hover {
+background-color: #1428aa;
+}
